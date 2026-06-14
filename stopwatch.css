@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(33, 100%, 88%, 0.4);
+}
+    #h1{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(165, 42, 42, 0.6);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:  5px double;
+    border-radius: 50px;
+    padding: 30px;
+    background-color: rgba(189, 221, 227, 0.553);
+}
+#display{
+    font-size: 5rem;
+    font-weight: bold;
+    color:rgba(21, 21, 21, 0.773) ;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease
+}
+
+#startbtn{
+    background-color: rgb(15, 190, 100);
+}
+#stopbtn{
+    background-color: rgb(213, 47, 47);
+}
+#resetbtn{
+    background-color: rgb(67, 64, 64);
+}
+
+
+#startbtn:hover{
+    background-color: rgba(5, 79, 41, 0.833);
+}
+#stopbtn:hover{
+    background-color: rgba(151, 23, 23, 0.848);
+}
+#resetbtn:hover{
+    background-color: rgba(113, 109, 109, 0.736);
+}
